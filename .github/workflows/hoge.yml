@@ -24,8 +24,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run install
-        uses: npm install
+        run: npm install
 
       - name: Run tests
         run: npm test
-        
